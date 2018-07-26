@@ -15,7 +15,10 @@ git init - turn a regular directory into a git repository. Does not make any com
 git status - a good status summary of the repository
 
 git add - add files to a staging area ahead of a single commit incorporating potentially multiple files
+git reset - can unstage a file but preserves its contents
 
+
+Cheat sheet: https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf 
 
 Reflections:
 
