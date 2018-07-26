@@ -4,13 +4,15 @@ One commit per logical change. One purpose that is easily understood.
 
 Git diff - compares 2 versions of a file within git (“operates on” commits)
 Diff - regular comparison between 2 files
+"git diff" with no arguments compares the working directory with the staging area (before git add)
+"git diff --staged" compares the staging area with the repository (after git add but before git commit)
 
 Git calls a collection of files a repository. But it isn't just the files. It includes the history for these files too.
 It tracks the status of all files when doign a commit to the repository.
 git log --stat : Commit history alongside which files have changed in each commit
 
 git clone - the command to copy a repository from one computer to another
-git checkout - the command to change your repository to the snapshot corresponding to a specific commit 
+git checkout - the command to change your repository to the snapshot corresponding to a specific commit. git checkout master returns you to master
 git init - turn a regular directory into a git repository. Does not make any commits. Does not track the status of any files within.
 git status - a good status summary of the repository
 
