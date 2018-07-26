@@ -19,6 +19,10 @@ git status - a good status summary of the repository
 git add - add files to a staging area ahead of a single commit incorporating potentially multiple files
 git reset - can unstage a file but preserves its contents. --hard to cleanup everything on the staging area AND the workign directory.
 
+git branch - shows branches on the repo. The "*" indicates the branches to which the commits will associate.
+git branch "name" - creates a branch with name on the repo
+git checkout "name" - switch to branch name to which future commits will associate
+git log --graph --oneline branch1 branch2 - a visual representation of branches
 
 Cheat sheet: https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf 
 
@@ -27,6 +31,8 @@ Branches are labels that can be associated with a given commit.
 "master" is the standard name associated with the main branch in a repo. Automatically created by Git.
 "Detached head" means you're on a commit not associated with a branch.
 If you checkout a branch and commit to it, the branch label updates to the latest commit and stays checked-out.
+
+Branches allow developers to context switch!
 
 
 Reflections:

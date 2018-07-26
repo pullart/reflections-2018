@@ -7,3 +7,6 @@ I can make a logical commit including several files, even if my working director
 How can you use the staging area to make sure you have one commit per logical change?
 By lumping all relevant files into the staging area ahead of the commit
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Isolating a larger logical unit spanning multiple commits to a separate branch, eventually merging it back in as a single commit.
+
