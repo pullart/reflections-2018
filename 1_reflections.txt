@@ -6,6 +6,7 @@ Git diff - compares 2 versions of a file within git (“operates on” commits)
 Diff - regular comparison between 2 files
 "git diff" with no arguments compares the working directory with the staging area (before git add)
 "git diff --staged" compares the staging area with the repository (after git add but before git commit)
+git show "id" - shows diff between commit "id" and its immediate parent
 
 Git calls a collection of files a repository. But it isn't just the files. It includes the history for these files too.
 It tracks the status of all files when doign a commit to the repository.
@@ -23,6 +24,7 @@ git branch - shows branches on the repo. The "*" indicates the branches to which
 git branch "name" - creates a branch with name on the repo
 git checkout "name" - switch to branch name to which future commits will associate
 git log --graph --oneline branch1 branch2 - a visual representation of branches
+git checkout -b "name" combines git branch and git checkout
 
 Cheat sheet: https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf 
 
@@ -33,6 +35,11 @@ Branches are labels that can be associated with a given commit.
 If you checkout a branch and commit to it, the branch label updates to the latest commit and stays checked-out.
 
 Branches allow developers to context switch!
+
+Every commit has a reference to the previous commit as a parent.
+Merge commits include references to both parent commits
+Merging "experimental" into "master" is the typical merge flow. Merge changes, master must point to new merged commit and experimental must be deleted.
+git checkout master; git merge master experimental (includes an automatic commit); git branch -d experimental;
 
 
 Reflections:
