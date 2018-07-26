@@ -1,0 +1,38 @@
+Github learning
+ A Git commit is a logical aggregation of meaningful changes. This is why looking through history becomes useful.
+One commit per logical change. One purpose that is easily understood.
+
+Git diff - compares 2 versions of a file within git (“operates on” commits)
+Diff - regular comparison between 2 files
+
+Git calls a collection of files a repository. But it isn't just the files. It includes the history for these files too.
+It tracks the status of all files when doign a commit to the repository.
+git log --stat : Commit history alongside which files have changed in each commit
+
+git clone - the command to copy a repository from one computer to another
+git checkout - the command to change your repository to the snapshot corresponding to a specific commit 
+git init - turn a regular directory into a git repository
+
+
+Reflections:
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+By focusing only on what changed as opposed to the entire file, we can narrow down the root cause of the issue.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+We can identify what was added to the file, alongside why and when. This context is very helpful when deciding when an issue may have been introduced into the code.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Because having a clear and single purpose for each commit makes it easier to study in the future.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because Git was designed for code, where logical changes can span multiple files. Google docs treats documents as isolated entities.
+
+How can you use the commands git log and git diff to view the history of files?
+Git log gives me the descriptions of the commits that went in. Git diff helps me zoom into a specific commit.
+
+How might using version control make you more confident to make changes that could break something?
+Because I can go back in time to undo these mistakes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+We're moving to Git at work. This is survival.
