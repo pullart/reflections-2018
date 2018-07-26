@@ -11,7 +11,10 @@ git log --stat : Commit history alongside which files have changed in each commi
 
 git clone - the command to copy a repository from one computer to another
 git checkout - the command to change your repository to the snapshot corresponding to a specific commit 
-git init - turn a regular directory into a git repository
+git init - turn a regular directory into a git repository. Does not make any commits. Does not track the status of any files within.
+git status - a good status summary of the repository
+
+git add - add files to a staging area ahead of a single commit incorporating potentially multiple files
 
 
 Reflections:
