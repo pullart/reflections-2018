@@ -40,7 +40,7 @@ Every commit has a reference to the previous commit as a parent.
 Merge commits include references to both parent commits
 Merging "experimental" into "master" is the typical merge flow. Merge changes, master must point to new merged commit and experimental must be deleted.
 git checkout master; git merge master experimental (includes an automatic commit); git branch -d experimental;
-
+If a branch isn't merged, use git branch -D experimental;
 
 Reflections:
 
