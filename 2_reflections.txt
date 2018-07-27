@@ -16,3 +16,7 @@ Because our brains are wired to understand conceptual diagrams better.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Includes code changes made to both branches. Easy to understand?
 Adding a line to test merging into master.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Merge conflicts aer annoying, but the alternative i smuch worse.
+
