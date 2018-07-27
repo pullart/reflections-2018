@@ -29,6 +29,8 @@ git checkout -b "name" combines git branch and git checkout
 git remote - view and create remotes, similar to how git branch works locally
 git remote add origin <url> - creates a remote repo called "origin" with the url used on Github
 git remote -v - a more verbose version of git remote including URL information for fetching and pushing
+git push <remote> <local-branch> - pushes contents of the local branch (committed) to the same branch on the remote repo
+git pull <remote> <branch> - pulls contents from the branch on the remote repo onto the local repo
 
 
 
