@@ -26,6 +26,12 @@ git checkout "name" - switch to branch name to which future commits will associa
 git log --graph --oneline branch1 branch2 - a visual representation of branches
 git checkout -b "name" combines git branch and git checkout
 
+git remote - view and create remotes, similar to how git branch works locally
+git remote add origin <url> - creates a remote repo called "origin" with the url used on Github
+git remote -v - a more verbose version of git remote including URL information for fetching and pushing
+
+
+
 Cheat sheet: https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf 
 
 Branches:
@@ -41,6 +47,13 @@ Merge commits include references to both parent commits
 Merging "experimental" into "master" is the typical merge flow. Merge changes, master must point to new merged commit and experimental must be deleted.
 git checkout master; git merge master experimental (includes an automatic commit, unless there's a conflict); git branch -d experimental;
 If a branch isn't merged, use git branch -D experimental;
+
+
+GitHub:
+Hosts repositories on GitHub's servers
+To host a repo on a server, requires to first create a repo on the server, then associate this as a "remote" for your local repo. Now you can "push" and "pull" from it
+Push/pull happens at the granularity of branches. Starts at the tip of the branch and works backwards to the most common commit.
+
 
 Reflections:
 
