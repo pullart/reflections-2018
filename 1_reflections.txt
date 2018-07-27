@@ -32,7 +32,7 @@ git remote -v - a more verbose version of git remote including URL information f
 git push <remote> <local-branch> - pushes contents of the local branch (committed) to the same branch on the remote repo
 git pull <remote> <branch> - pulls contents from the branch on the remote repo onto the local repo
 
-
+fork - an operation on github to "clone" an existing repo, but with attribution to the original repo. No client cloning needed. 
 
 Cheat sheet: https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf 
 
@@ -55,6 +55,8 @@ GitHub:
 Hosts repositories on GitHub's servers
 To host a repo on a server, requires to first create a repo on the server, then associate this as a "remote" for your local repo. Now you can "push" and "pull" from it
 Push/pull happens at the granularity of branches. Starts at the tip of the branch and works backwards to the most common commit.
+
+When cloning from GitHub, the local repo has the remote repo automtaically setup as "origin"
 
 
 Reflections:

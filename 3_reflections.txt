@@ -3,3 +3,9 @@ When I'm collaborating with multiple developers. And if I'm afraid my local disk
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 To avoid constnt conflicts in my local code. Deal with that churn when I'm prepared for it.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forking makes sense when it's likely there is a divergence between the two repos that might be irreconcilable
+Cloning is when the repos need to be in tight lockstep
+Branches are useful for context switching within a repo.
+
