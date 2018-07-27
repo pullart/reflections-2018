@@ -9,3 +9,5 @@ Forking makes sense when it's likely there is a divergence between the two repos
 Cloning is when the repos need to be in tight lockstep
 Branches are useful for context switching within a repo.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You can see the changes others are up to, and anticipate conflicts. 
